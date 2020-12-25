@@ -1,7 +1,7 @@
 ---
 title: "CDA R notebook"
 author: "Instructor: Partha Sarathi Mukherjee"
-date: "Last updated: `r Sys.time()`"
+date: "Last updated: 26 Dec, 2020"
 output: 
   html_document:
     toc: true # table of content true
