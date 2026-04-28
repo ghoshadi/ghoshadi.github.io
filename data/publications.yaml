@@ -1,0 +1,42 @@
+- title: "Non-parametric Causal Inference in Dynamic Thresholding Designs"
+  authors: "Aditya Ghosh and Stefan Wager"
+  year: 2025
+  status: "Submitted"
+  summary: "We study thresholding designs in general dynamic systems, and show that simple reduced-form characterizations remain available for a relevant causal target, namely a dynamic marginal policy effect at the treatment threshold."
+  links:
+    arxiv: "https://arxiv.org/pdf/2512.15244"
+
+- title: "Which Covariates to Adjust for? Specification-robust Causal Inference in Observational Studies"
+  authors: "Aditya Ghosh and Dominik Rothenhäusler"
+  year: 2025
+  status: "Submitted"
+  summary: "When it is unclear which covariates to adjust for, we provide valid inference for a reweighted population when at least one of the candidate adjustment sets is valid."
+  links:
+    arxiv: "https://arxiv.org/pdf/2505.08729"
+
+- title: "PLRD: Partially Linear Regression Discontinuity Inference"
+  authors: "Aditya Ghosh, Guido Imbens, and Stefan Wager"
+  year: 2025
+  status: "Submitted"
+  summary: "For treatment rules with an eligibility threshold, PLRD delivers narrow yet reliable confidence intervals for the effect at the threshold by solving a minimax problem."
+  links:
+    arxiv: "https://arxiv.org/pdf/2503.09907"
+    package: "https://ghoshadi.github.io/plrd/"
+
+- title: "Robustness and Efficiency of Rosenbaum's Rank-based Estimator in Randomized Trials: A Design-based Perspective"
+  authors: "Aditya Ghosh, Nabarun Deb, Bikram Karmakar, and Bodhi Sen"
+  year: "2025+"
+  status: "Accepted at Biometrika"
+  summary: "We study efficiency and robustness of Rosenbaum's rank-based estimator under finite population inference in randomized trials, with and without covariate adjustment."
+  links:
+    arxiv: "https://arxiv.org/abs/2111.15524"
+    journal: "https://doi.org/10.1093/biomet/asag028"
+
+- title: "An Asymptotic Formula for the Chebyshev Theta Function"
+  authors: "Aditya Ghosh"
+  year: 2019
+  venue: "Notes on Number Theory and Discrete Mathematics, 25(4), 1–7"
+  status: "Published"
+  summary: "We derive sharp bounds on the geometric mean of the first n prime numbers."
+  links:
+    journal: "http://nntdm.net/volume-25-2019/number-4/1-7/"

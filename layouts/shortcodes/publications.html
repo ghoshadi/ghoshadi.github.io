@@ -1,0 +1,29 @@
+<div class="publication-list">
+  {{ range site.Data.publications }}
+    <article class="publication">
+      <h2>{{ .title }}</h2>
+
+      <p class="pub-authors">{{ .authors }}</p>
+
+      <p class="pub-meta">
+        {{ with .status }}{{ . }}{{ end }}
+        {{ with .venue }} · {{ . }}{{ end }}
+        {{ with .year }} · {{ . }}{{ end }}
+      </p>
+
+      {{ with .summary }}
+        <p class="pub-summary">{{ . }}</p>
+      {{ end }}
+
+      {{ with .links }}
+        <div class="pub-links">
+          {{ with .arxiv }}<a href="{{ . }}">arXiv</a>{{ end }}
+          {{ with .journal }}<a href="{{ . }}">Journal link</a>{{ end }}
+          {{ with .package }}<a href="{{ . }}">R package</a>{{ end }}
+          {{ with .pdf }}<a href="{{ . }}">PDF</a>{{ end }}
+          {{ with .code }}<a href="{{ . }}">Code</a>{{ end }}
+        </div>
+      {{ end }}
+    </article>
+  {{ end }}
+</div>

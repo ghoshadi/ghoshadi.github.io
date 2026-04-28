@@ -1,0 +1,63 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">Stanford Statistics</p>
+    <h1>Aditya Ghosh</h1>
+    <p class="lead">
+      I am a Ph.D. candidate in Statistics at Stanford University, advised by
+      <a href="https://web.stanford.edu/~swager/">Stefan Wager</a> and
+      <a href="https://sites.google.com/view/rothenhaeusler/home">Dominik Rothenhäusler</a>.
+      My research focuses on problems in causal inference, statistical learning, and optimization.
+      I am currently working on causal inference in dynamic systems and causal inference under distribution shift.
+    </p>
+    <div class="hero-links">
+      <a class="button primary" href="/publications/">Publications</a>
+      <a class="button" href="/files/Aditya_CV.pdf">CV</a>
+      <a class="button" href="https://ghoshadi.github.io/plrd/">PLRD</a>
+    </div>
+  </div>
+
+  <div class="hero-photo-wrap">
+    <img class="hero-photo" src="/images/headshot.png" alt="Aditya Ghosh">
+  </div>
+</section>
+
+<section class="section">
+  <h2>Selected research</h2>
+  <div class="cards">
+    <a class="card" href="/publications/">
+      <h3>Non-parametric Causal Inference in Dynamic Thresholding Designs</h3>
+      <p>
+        We study thresholding designs in general dynamic systems, and show that simple
+        reduced-form characterizations remain available for a relevant causal target,
+        namely a dynamic marginal policy effect at the treatment threshold.
+      </p>
+    </a>
+
+    <a class="card" href="/publications/">
+      <h3>Which Covariates to Adjust for?</h3>
+      <p>
+        When it is unclear which covariates to adjust for, we provide valid inference
+        for a reweighted population when at least one of the candidate adjustment sets is valid.
+      </p>
+    </a>
+
+    <a class="card" href="https://ghoshadi.github.io/plrd/">
+      <h3>PLRD: Partially Linear Regression Discontinuity Inference</h3>
+      <p>
+        For treatment rules with an eligibility threshold, PLRD delivers narrow yet reliable
+        confidence intervals for the effect at the threshold by solving a minimax problem.
+      </p>
+    </a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Other roles</h2>
+  <p>
+    I help organize the
+    <a href="https://sites.google.com/view/ocis/home">Online Causal Inference Seminar</a>,
+    a weekly seminar on causal inference with participants from all over the world.
+  </p>
+</section>
+{{ end }}
