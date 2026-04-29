@@ -24,7 +24,6 @@
   summary: "For treatment rules with an eligibility threshold, PLRD delivers narrow yet reliable confidence intervals for the effect at the threshold by solving a minimax problem."
   links:
     arxiv: "https://arxiv.org/pdf/2503.09907"
-    poster: "/files/Poster_PLRD.pdf"
     replication: "https://github.com/ghoshadi/plrd"
     package: "https://ghoshadi.github.io/plrd/"
 
