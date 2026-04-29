@@ -1096,3 +1096,19 @@ h3 {
     height: 1.34rem !important;
   }
 }
+
+/* Final text-color harmonization: match homepage About-me text color */
+.section p,
+.content > p,
+.pub-authors,
+.pub-meta,
+.teaching-term,
+.content li {
+  color: var(--muted) !important;
+}
+
+/* Keep emphasized course/paper names readable */
+.content li strong,
+.publication h2 {
+  color: var(--text) !important;
+}
