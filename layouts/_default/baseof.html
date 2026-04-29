@@ -5,8 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
   <meta name="description" content="{{ site.Params.description }}">
-  {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  {{ $mainCSS := resources.Get "css/main.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}">
+  {{ with resources.Get "css/palette.css" }}
+    {{ $paletteCSS := . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $paletteCSS.RelPermalink }}">
+  {{ end }}
 </head>
 <body>
   {{ partial "nav.html" . }}
