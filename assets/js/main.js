@@ -61,3 +61,25 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".copy-email").forEach(function (link) {
+    link.addEventListener("click", function () {
+      const email = link.getAttribute("data-email");
+      const hint = link.parentElement.querySelector(".copy-hint");
+
+      if (!email || !navigator.clipboard) return;
+
+      navigator.clipboard.writeText(email).then(function () {
+        if (hint) {
+          hint.textContent = "Copied";
+          window.setTimeout(function () {
+            hint.textContent = "";
+          }, 1600);
+        }
+      }).catch(function () {
+        // Fall back silently; mailto still works.
+      });
+    });
+  });
+});
