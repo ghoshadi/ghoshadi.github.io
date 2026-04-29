@@ -702,3 +702,397 @@ h3 {
   font-size: 1.08rem;
   letter-spacing: -0.02em;
 }
+
+/* Final header sizing */
+.brand {
+  font-size: 1.13rem !important;
+}
+
+.nav-link {
+  font-size: 1.01rem !important;
+  font-weight: 520;
+}
+
+#theme-toggle.theme-toggle,
+#theme-toggle.theme-toggle.nav-theme-toggle {
+  font-size: 1rem !important;
+}
+
+/* Keep header usable on mobile */
+@media (max-width: 700px) {
+  .brand {
+    font-size: 1.05rem !important;
+  }
+
+  .nav-link {
+    font-size: 0.94rem !important;
+  }
+
+  #theme-toggle.theme-toggle,
+  #theme-toggle.theme-toggle.nav-theme-toggle {
+    font-size: 0.94rem !important;
+  }
+}
+
+/* Research page paper titles:
+   smaller than page headings, larger than author/status text. */
+.publication h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.12rem, 1.75vw, 1.34rem) !important;
+  line-height: 1.25;
+  letter-spacing: -0.018em;
+  margin-bottom: 0.25rem;
+}
+
+.pub-authors,
+.pub-meta,
+.pub-summary {
+  font-size: 0.98rem;
+}
+
+/* Final header sizing */
+.brand {
+  font-size: 1.13rem !important;
+}
+
+.nav-link {
+  font-size: 1.01rem !important;
+  font-weight: 520;
+}
+
+#theme-toggle.theme-toggle,
+#theme-toggle.theme-toggle.nav-theme-toggle {
+  font-size: 1rem !important;
+}
+
+/* Keep header usable on mobile */
+@media (max-width: 700px) {
+  .brand {
+    font-size: 1.05rem !important;
+  }
+
+  .nav-link {
+    font-size: 0.94rem !important;
+  }
+
+  #theme-toggle.theme-toggle,
+  #theme-toggle.theme-toggle.nav-theme-toggle {
+    font-size: 0.94rem !important;
+  }
+}
+
+/* Research page paper titles:
+   smaller than page headings, larger than author/status text. */
+.publication h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.12rem, 1.75vw, 1.34rem) !important;
+  line-height: 1.25;
+  letter-spacing: -0.018em;
+  margin-bottom: 0.25rem;
+}
+
+.pub-authors,
+.pub-meta,
+.pub-summary {
+  font-size: 0.98rem;
+}
+
+/* Final sizing refinements */
+
+/* Make the top-left name comparable to the homepage/page title size */
+.brand {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: clamp(1.45rem, 2.6vw, 1.9rem) !important;
+  line-height: 1.18;
+  letter-spacing: -0.025em;
+}
+
+/* Slightly tighten vertical alignment after enlarging the brand */
+.nav {
+  align-items: center;
+}
+
+/* Make homepage social/contact icons larger inside the round buttons */
+.icon-button {
+  width: 2.95rem !important;
+  min-width: 2.95rem;
+  height: 2.95rem;
+  padding: 0 !important;
+}
+
+.icon-button svg {
+  width: 1.45rem !important;
+  height: 1.45rem !important;
+}
+
+/* LinkedIn glyph has a compact visual shape; give it a tiny boost */
+.icon-button[aria-label="LinkedIn"] svg {
+  width: 1.55rem !important;
+  height: 1.55rem !important;
+}
+
+/* Mobile: keep brand readable without making the header explode */
+@media (max-width: 700px) {
+  .brand {
+    font-size: clamp(1.25rem, 5vw, 1.55rem) !important;
+  }
+
+  .icon-button {
+    width: 2.75rem !important;
+    min-width: 2.75rem;
+    height: 2.75rem;
+  }
+
+  .icon-button svg {
+    width: 1.35rem !important;
+    height: 1.35rem !important;
+  }
+}
+
+/* Teaching page hierarchy:
+   h1 = page title, h2 = Stanford University, h3 = As instructor/TA. */
+.content h2 {
+  font-size: clamp(1.28rem, 2vw, 1.58rem) !important;
+}
+
+.content h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.08rem, 1.5vw, 1.22rem) !important;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+}
+
+/* Final sizing refinements */
+
+/* Make the top-left name comparable to the homepage/page title size */
+.brand {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: clamp(1.45rem, 2.6vw, 1.9rem) !important;
+  line-height: 1.18;
+  letter-spacing: -0.025em;
+}
+
+/* Slightly tighten vertical alignment after enlarging the brand */
+.nav {
+  align-items: center;
+}
+
+/* Make homepage social/contact icons larger inside the round buttons */
+.icon-button {
+  width: 2.95rem !important;
+  min-width: 2.95rem;
+  height: 2.95rem;
+  padding: 0 !important;
+}
+
+.icon-button svg {
+  width: 1.45rem !important;
+  height: 1.45rem !important;
+}
+
+/* LinkedIn glyph has a compact visual shape; give it a tiny boost */
+.icon-button[aria-label="LinkedIn"] svg {
+  width: 1.55rem !important;
+  height: 1.55rem !important;
+}
+
+/* Mobile: keep brand readable without making the header explode */
+@media (max-width: 700px) {
+  .brand {
+    font-size: clamp(1.25rem, 5vw, 1.55rem) !important;
+  }
+
+  .icon-button {
+    width: 2.75rem !important;
+    min-width: 2.75rem;
+    height: 2.75rem;
+  }
+
+  .icon-button svg {
+    width: 1.35rem !important;
+    height: 1.35rem !important;
+  }
+}
+
+/* Teaching page hierarchy:
+   h1 = page title, h2 = Stanford University, h3 = As instructor/TA. */
+.content h2 {
+  font-size: clamp(1.28rem, 2vw, 1.58rem) !important;
+}
+
+.content h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.08rem, 1.5vw, 1.22rem) !important;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+}
+
+/* Final sizing refinements */
+
+/* Make the top-left name comparable to the homepage/page title size */
+.brand {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: clamp(1.25rem, 2.6vw, 1.9rem) !important;
+  line-height: 1.18;
+  letter-spacing: -0.025em;
+}
+
+/* Slightly tighten vertical alignment after enlarging the brand */
+.nav {
+  align-items: center;
+}
+
+/* Make homepage social/contact icons larger inside the round buttons */
+.icon-button {
+  width: 2.95rem !important;
+  min-width: 2.95rem;
+  height: 2.95rem;
+  padding: 0 !important;
+}
+
+.icon-button svg {
+  width: 1.45rem !important;
+  height: 1.45rem !important;
+}
+
+/* LinkedIn glyph has a compact visual shape; give it a tiny boost */
+.icon-button[aria-label="LinkedIn"] svg {
+  width: 1.55rem !important;
+  height: 1.55rem !important;
+}
+
+/* Mobile: keep brand readable without making the header explode */
+@media (max-width: 700px) {
+  .brand {
+    font-size: clamp(1.25rem, 5vw, 1.55rem) !important;
+  }
+
+  .icon-button {
+    width: 2.75rem !important;
+    min-width: 2.75rem;
+    height: 2.75rem;
+  }
+
+  .icon-button svg {
+    width: 1.35rem !important;
+    height: 1.35rem !important;
+  }
+}
+
+/* Teaching page hierarchy:
+   h1 = page title, h2 = Stanford University, h3 = As instructor/TA. */
+.content h2 {
+  font-size: clamp(1.28rem, 2vw, 1.58rem) !important;
+}
+
+.content h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.08rem, 1.5vw, 1.22rem) !important;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+}
+
+/* Final sizing refinements */
+
+/* Make the top-left name comparable to the homepage/page title size */
+.brand {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: clamp(1.25rem, 2.6vw, 1.5rem) !important;
+  line-height: 1.18;
+  letter-spacing: -0.025em;
+}
+
+/* Slightly tighten vertical alignment after enlarging the brand */
+.nav {
+  align-items: center;
+}
+
+/* Make homepage social/contact icons larger inside the round buttons */
+.icon-button {
+  width: 2.95rem !important;
+  min-width: 2.95rem;
+  height: 2.95rem;
+  padding: 0 !important;
+}
+
+.icon-button svg {
+  width: 1.45rem !important;
+  height: 1.45rem !important;
+}
+
+/* LinkedIn glyph has a compact visual shape; give it a tiny boost */
+.icon-button[aria-label="LinkedIn"] svg {
+  width: 1.55rem !important;
+  height: 1.55rem !important;
+}
+
+/* Mobile: keep brand readable without making the header explode */
+@media (max-width: 700px) {
+  .brand {
+    font-size: clamp(1.25rem, 5vw, 1.55rem) !important;
+  }
+
+  .icon-button {
+    width: 2.75rem !important;
+    min-width: 2.75rem;
+    height: 2.75rem;
+  }
+
+  .icon-button svg {
+    width: 1.35rem !important;
+    height: 1.35rem !important;
+  }
+}
+
+/* Teaching page hierarchy:
+   h1 = page title, h2 = Stanford University, h3 = As instructor/TA. */
+.content h2 {
+  font-size: clamp(1.28rem, 2vw, 1.58rem) !important;
+}
+
+.content h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.08rem, 1.5vw, 1.22rem) !important;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+}
+
+/* Final social-icon tuning */
+.scholar-svg {
+  width: 1.55rem !important;
+  height: 1.55rem !important;
+  display: block;
+}
+
+.icon-button[aria-label="LinkedIn"] svg {
+  width: 1.28rem !important;
+  height: 1.28rem !important;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .scholar-svg {
+    width: 1.45rem !important;
+    height: 1.45rem !important;
+  }
+
+  .icon-button[aria-label="LinkedIn"] svg {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+  }
+}
+
+/* Monochrome Google Scholar-style icon */
+.scholar-svg {
+  width: 1.42rem !important;
+  height: 1.42rem !important;
+  display: block;
+  fill: currentColor;
+}
+
+@media (max-width: 700px) {
+  .scholar-svg {
+    width: 1.34rem !important;
+    height: 1.34rem !important;
+  }
+}
