@@ -13,6 +13,7 @@
   summary: "When it is unclear which covariates to adjust for, we provide valid inference for a reweighted population when at least one of the candidate adjustment sets is valid."
   links:
     arxiv: "https://arxiv.org/pdf/2505.08729"
+    replication: "https://github.com/ghoshadi/specification-robust-causal"
 
 - title: "PLRD: Partially Linear Regression Discontinuity Inference"
   authors: "Aditya Ghosh, Guido Imbens, and Stefan Wager"
@@ -21,6 +22,7 @@
   summary: "For treatment rules with an eligibility threshold, PLRD delivers narrow yet reliable confidence intervals for the effect at the threshold by solving a minimax problem."
   links:
     arxiv: "https://arxiv.org/pdf/2503.09907"
+    replication: "https://github.com/ghoshadi/plrd"
     package: "https://ghoshadi.github.io/plrd/"
 
 - title: "Robustness and Efficiency of Rosenbaum's Rank-based Estimator in Randomized Trials: A Design-based Perspective"

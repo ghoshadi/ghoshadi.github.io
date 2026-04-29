@@ -1349,3 +1349,18 @@ body:has(.page-header h1) .content li {
   margin-top: 0;
   margin-bottom: 0.15rem;
 }
+
+/* Do not show animated text underlines on publication action buttons */
+a.pub-button::after,
+a.pub-button:hover::after,
+a.pub-button:focus-visible::after,
+.pub-links a::after,
+.pub-links a:hover::after,
+.pub-links a:focus-visible::after,
+.pub-summary-toggle::after,
+.pub-summary-toggle:hover::after,
+.pub-summary-toggle:focus-visible::after {
+  content: none !important;
+  display: none !important;
+  width: 0 !important;
+}
