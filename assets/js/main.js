@@ -36,3 +36,28 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+/* Normalize accidental CV-link casing on the client side.
+   GitHub Pages is case-sensitive; the canonical path is /files/Aditya_CV.pdf. */
+document.addEventListener("DOMContentLoaded", function () {
+  const canonicalCV = "/files/Aditya_CV.pdf";
+
+  document.querySelectorAll("a[href]").forEach(function (a) {
+    try {
+      const url = new URL(a.getAttribute("href"), window.location.origin);
+      const path = url.pathname.toLowerCase();
+
+      const looksLikeCV =
+        path.endsWith("/aditya_cv.pdf") ||
+        path.endsWith("/aditya-cv.pdf") ||
+        path.endsWith("/cv.pdf") ||
+        path.includes("aditya_cv");
+
+      if (looksLikeCV) {
+        a.setAttribute("href", canonicalCV);
+      }
+    } catch (_) {
+      // Ignore malformed hrefs.
+    }
+  });
+});
