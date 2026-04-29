@@ -1249,3 +1249,44 @@ html[data-theme="dark"] .hero-links .button.primary:hover {
   border-width: 2px !important;
   border-color: var(--accent) !important;
 }
+
+/* Animated underline for ordinary text links, matching header nav behavior */
+.content a,
+.lead a,
+.section p a,
+.page a:not(.button):not(.card):not(.pub-button),
+.publication a:not(.pub-button) {
+  position: relative;
+  text-decoration: none;
+}
+
+.content a::after,
+.lead a::after,
+.section p a::after,
+.page a:not(.button):not(.card):not(.pub-button)::after,
+.publication a:not(.pub-button)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.12rem;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  transition: width 160ms ease;
+}
+
+.content a:hover::after,
+.lead a:hover::after,
+.section p a:hover::after,
+.page a:not(.button):not(.card):not(.pub-button):hover::after,
+.publication a:not(.pub-button):hover::after {
+  width: 100%;
+}
+
+/* Keep button/card links from getting text underlines */
+.button::after,
+.card::after,
+.pub-button::after,
+.nav-link::after {
+  pointer-events: none;
+}
