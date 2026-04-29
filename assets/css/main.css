@@ -1290,3 +1290,62 @@ html[data-theme="dark"] .hero-links .button.primary:hover {
 .nav-link::after {
   pointer-events: none;
 }
+
+/* Tighter bullet spacing on Teaching page */
+.content ul {
+  margin-top: 0.4rem;
+  margin-bottom: 1.1rem;
+  padding-left: 1.35rem;
+}
+
+.content li {
+  margin-bottom: 0.45rem;
+}
+
+.content li p {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+}
+
+/* Extra-tighten Teaching page course lists specifically */
+body:has(.page-header h1) .content li {
+  line-height: 1.45;
+}
+
+/* Tighter bullet spacing on Teaching page */
+.content ul {
+  margin-top: 0.4rem;
+  margin-bottom: 1.1rem;
+  padding-left: 1.35rem;
+}
+
+.content li {
+  margin-bottom: 0.45rem;
+}
+
+.content li p {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+}
+
+/* Extra-tighten Teaching page course lists specifically */
+body:has(.page-header h1) .content li {
+  line-height: 1.6;
+}
+
+/* Tighter course-list spacing on Teaching page only */
+.teaching-page .content ul {
+  margin-top: 0.35rem;
+  margin-bottom: 1rem;
+  padding-left: 1.25rem;
+}
+
+.teaching-page .content li {
+  margin-bottom: 0.38rem;
+  line-height: 1.42;
+}
+
+.teaching-page .content li p {
+  margin-top: 0;
+  margin-bottom: 0.15rem;
+}

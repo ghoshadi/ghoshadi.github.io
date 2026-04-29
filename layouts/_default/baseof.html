@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="{{ $paletteCSS.RelPermalink }}">
   {{ end }}
 </head>
-<body>
+<body class="{{ with .Params.body_class }}{{ . }}{{ end }}">
   {{ partial "nav.html" . }}
 
   <main class="site-main">
