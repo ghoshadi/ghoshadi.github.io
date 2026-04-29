@@ -12,18 +12,19 @@
       </p>
 
       <div class="pub-links">
-        {{ with $pub.links }}
-          {{ with .arxiv }}<a class="pub-button" href="{{ . }}">arXiv</a>{{ end }}
-          {{ with .journal }}<a class="pub-button" href="{{ . }}">Journal link</a>{{ end }}
-          {{ with .package }}<a class="pub-button" href="{{ . }}">R package</a>{{ end }}
-          {{ with .pdf }}<a class="pub-button" href="{{ . }}">PDF</a>{{ end }}
-          {{ with .code }}<a class="pub-button" href="{{ . }}">Code</a>{{ end }}
-        {{ end }}
-
         {{ with $pub.summary }}
           <button class="pub-button pub-summary-toggle" type="button" data-target="summary-{{ $i }}">
             Summary
           </button>
+        {{ end }}
+
+        {{ with $pub.links }}
+          {{ with .arxiv }}<a class="pub-button" href="{{ . }}">arXiv</a>{{ end }}
+          {{ with .journal }}<a class="pub-button" href="{{ . }}">Journal link</a>{{ end }}
+          {{ with .replication }}<a class="pub-button" href="{{ . }}">Replication files</a>{{ end }}
+          {{ with .package }}<a class="pub-button" href="{{ . }}">R package</a>{{ end }}
+          {{ with .pdf }}<a class="pub-button" href="{{ . }}">PDF</a>{{ end }}
+          {{ with .code }}<a class="pub-button" href="{{ . }}">Code</a>{{ end }}
         {{ end }}
       </div>
 
