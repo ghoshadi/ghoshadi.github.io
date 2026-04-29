@@ -14,11 +14,6 @@ disableKinds = ["taxonomy", "term"]
     weight = 1
 
   [[menus.main]]
-    name = "About"
-    pageRef = "/about"
-    weight = 10
-
-  [[menus.main]]
     name = "Research"
     pageRef = "/publications"
     weight = 20
