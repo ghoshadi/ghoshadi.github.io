@@ -32,6 +32,7 @@
   summary: "We study efficiency and robustness of Rosenbaum's rank-based estimator under finite population inference in randomized trials, with and without covariate adjustment."
   links:
     arxiv: "https://arxiv.org/abs/2111.15524"
+    replication: "https://github.com/ghoshadi/RRE"
     journal: "https://doi.org/10.1093/biomet/asag028"
 
 - title: "An Asymptotic Formula for the Chebyshev Theta Function"
