@@ -1,6 +1,6 @@
 - title: "Non-parametric Causal Inference in Dynamic Thresholding Designs"
   authors: "Aditya Ghosh and Stefan Wager"
-  year: 2025
+  year: "2025+"
   status: "Submitted"
   summary: "We study thresholding designs in general dynamic systems, and show that simple reduced-form characterizations remain available for a relevant causal target, namely a dynamic marginal policy effect at the treatment threshold."
   links:
@@ -8,7 +8,7 @@
 
 - title: "Which Covariates to Adjust for? Specification-robust Causal Inference in Observational Studies"
   authors: "Aditya Ghosh and Dominik Rothenhäusler"
-  year: 2025
+  year: "2025+"
   status: "Submitted"
   summary: "When it is unclear which covariates to adjust for, we provide valid inference for a reweighted population when at least one of the candidate adjustment sets is valid."
   links:
@@ -16,7 +16,7 @@
 
 - title: "PLRD: Partially Linear Regression Discontinuity Inference"
   authors: "Aditya Ghosh, Guido Imbens, and Stefan Wager"
-  year: 2025
+  year: "2025+"
   status: "Submitted"
   summary: "For treatment rules with an eligibility threshold, PLRD delivers narrow yet reliable confidence intervals for the effect at the threshold by solving a minimax problem."
   links:
