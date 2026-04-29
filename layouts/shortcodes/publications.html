@@ -1,28 +1,34 @@
 <div class="publication-list">
-  {{ range site.Data.publications }}
+  {{ range $i, $pub := site.Data.publications }}
     <article class="publication">
-      <h2>{{ .title }}</h2>
+      <h2>{{ $pub.title }}</h2>
 
-      <p class="pub-authors">{{ .authors }}</p>
+      <p class="pub-authors">{{ $pub.authors }}</p>
 
       <p class="pub-meta">
-        {{ with .status }}{{ . }}{{ end }}
-        {{ with .venue }} · {{ . }}{{ end }}
-        {{ with .year }} · {{ . }}{{ end }}
+        {{ with $pub.status }}{{ . }}{{ end }}
+        {{ with $pub.venue }}{{ if $pub.status }} · {{ end }}{{ . }}{{ end }}
+        {{ with $pub.year }} · {{ . }}{{ end }}
       </p>
 
-      {{ with .summary }}
-        <p class="pub-summary">{{ . }}</p>
-      {{ end }}
+      <div class="pub-links">
+        {{ with $pub.links }}
+          {{ with .arxiv }}<a class="pub-button" href="{{ . }}">arXiv</a>{{ end }}
+          {{ with .journal }}<a class="pub-button" href="{{ . }}">Journal link</a>{{ end }}
+          {{ with .package }}<a class="pub-button" href="{{ . }}">R package</a>{{ end }}
+          {{ with .pdf }}<a class="pub-button" href="{{ . }}">PDF</a>{{ end }}
+          {{ with .code }}<a class="pub-button" href="{{ . }}">Code</a>{{ end }}
+        {{ end }}
 
-      {{ with .links }}
-        <div class="pub-links">
-          {{ with .arxiv }}<a href="{{ . }}">arXiv</a>{{ end }}
-          {{ with .journal }}<a href="{{ . }}">Journal link</a>{{ end }}
-          {{ with .package }}<a href="{{ . }}">R package</a>{{ end }}
-          {{ with .pdf }}<a href="{{ . }}">PDF</a>{{ end }}
-          {{ with .code }}<a href="{{ . }}">Code</a>{{ end }}
-        </div>
+        {{ with $pub.summary }}
+          <button class="pub-button pub-summary-toggle" type="button" data-target="summary-{{ $i }}">
+            Summary
+          </button>
+        {{ end }}
+      </div>
+
+      {{ with $pub.summary }}
+        <p id="summary-{{ $i }}" class="pub-summary hidden">{{ . }}</p>
       {{ end }}
     </article>
   {{ end }}

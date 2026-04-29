@@ -23,3 +23,16 @@
     }
   });
 })();
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".pub-summary-toggle").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const targetId = button.getAttribute("data-target");
+      const target = document.getElementById(targetId);
+      if (!target) return;
+
+      const isHidden = target.classList.toggle("hidden");
+      button.textContent = isHidden ? "Summary" : "Hide summary";
+    });
+  });
+});

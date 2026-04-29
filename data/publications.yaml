@@ -24,7 +24,7 @@
     package: "https://ghoshadi.github.io/plrd/"
 
 - title: "Robustness and Efficiency of Rosenbaum's Rank-based Estimator in Randomized Trials: A Design-based Perspective"
-  authors: "Aditya Ghosh, Nabarun Deb, Bikram Karmakar, and Bodhi Sen"
+  authors: "Aditya Ghosh, Nabarun Deb, Bikram Karmakar, and Bodhisattva Sen"
   year: 2026
   status: "Accepted at Biometrika"
   summary: "We study efficiency and robustness of Rosenbaum's rank-based estimator under finite population inference in randomized trials, with and without covariate adjustment."
@@ -36,7 +36,6 @@
   authors: "Aditya Ghosh"
   year: 2019
   venue: "Notes on Number Theory and Discrete Mathematics, 25(4), 1–7"
-  status: "Published"
   summary: "We derive sharp bounds on the geometric mean of the first n prime numbers."
   links:
     journal: "http://nntdm.net/volume-25-2019/number-4/1-7/"

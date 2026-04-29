@@ -510,3 +510,63 @@ h3 {
     font-size: 0.95rem;
   }
 }
+
+/* Final homepage paragraph spacing */
+.hero-text .lead {
+  margin: 0;
+}
+
+.hero-text .lead + .lead {
+  margin-top: 0.75rem;
+}
+
+.hero-text br {
+  display: block;
+  content: "";
+  margin-top: 0.38rem;
+}
+
+/* Rounded publication links and collapsible summaries */
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.7rem;
+}
+
+.pub-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.36rem 0.75rem;
+  background: var(--surface);
+  color: var(--link);
+  font: inherit;
+  font-size: 0.92rem;
+  font-weight: 650;
+  line-height: 1.2;
+  cursor: pointer;
+  box-shadow: 0 5px 14px rgba(31, 41, 51, 0.04);
+  transition: transform 150ms ease, border-color 150ms ease, background 150ms ease;
+}
+
+.pub-button:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+.pub-summary-toggle {
+  appearance: none;
+}
+
+.pub-summary.hidden {
+  display: none;
+}
+
+.pub-summary {
+  margin-top: 0.75rem;
+  color: var(--muted);
+}
