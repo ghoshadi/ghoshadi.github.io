@@ -2,7 +2,7 @@
   authors: "Aditya Ghosh and Stefan Wager"
   year: "2025+"
   status: "Submitted"
-  summary: "Threshold-based treatment rules are common in clinical practice, but temporal dynamics complicate causal inference when patients are observed over time. We show that a dynamic marginal policy effect at the treatment threshold admits a simple reduced-form characterization, and develop a local linear regression method for estimation and inference."
+  summary: "Threshold-based interventions are common in clinical practice, but studying their long-term impact is challenging due to temporal dynamics. We show that a dynamic marginal policy effect at the treatment threshold admits a reduced-form characterization, and develop a local linear regression method for estimation and inference."
   links:
     arxiv: "https://arxiv.org/pdf/2512.15244"
     slides: "/files/Dynamic_RD_talk.pdf"
