@@ -1450,3 +1450,23 @@ a.pub-button:focus-visible::after,
     height: 2rem;
   }
 }
+
+/* Mobile homepage: show centered photo before About me */
+@media (max-width: 700px) {
+  .hero-photo-wrap {
+    order: -1;
+    justify-self: center !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-photo {
+    width: min(230px, 68vw);
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    order: 1;
+  }
+}
