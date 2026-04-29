@@ -13,6 +13,12 @@
     {{ $paletteCSS := . | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $paletteCSS.RelPermalink }}">
   {{ end }}
+  {{ with resources.Get "css/fonts.css" }}
+    {{ if eq .ResourceType "text" }}
+      {{ $fontCSS := . | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ $fontCSS.RelPermalink }}">
+    {{ end }}
+  {{ end }}
 </head>
 <body class="{{ with .Params.body_class }}{{ . }}{{ end }}">
   {{ partial "nav.html" . }}
