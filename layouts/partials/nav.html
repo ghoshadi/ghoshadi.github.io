@@ -5,7 +5,8 @@
     <div class="nav-right">
       <div class="nav-links">
         {{ range site.Menus.main }}
-          <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+          {{ $newtab := or (strings.HasPrefix .URL "http") (eq .Name "CV") }}
+          <a class="nav-link" href="{{ .URL }}"{{ if $newtab }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Name }}</a>
         {{ end }}
 
         <button id="theme-toggle" class="theme-toggle nav-theme-toggle" type="button" aria-label="Toggle dark mode">

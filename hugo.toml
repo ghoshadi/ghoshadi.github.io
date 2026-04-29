@@ -30,7 +30,7 @@ disableKinds = ["taxonomy", "term"]
 
   [[menus.main]]
     name = "CV"
-    url = "/files/Aditya_CV.pdf"
+    url = "/files/files/Aditya_CV.pdf"
     weight = 50
 
 [caches]
