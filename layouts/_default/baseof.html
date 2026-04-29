@@ -13,6 +13,12 @@
     {{ $paletteCSS := . | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $paletteCSS.RelPermalink }}">
   {{ end }}
+  {{ $fontsetName := site.Params.fontset | default "garamond" }}
+  {{ $fontsetPath := printf "css/fontsets/%s.css" $fontsetName }}
+  {{ with resources.Get $fontsetPath }}
+    {{ $fontsetCSS := . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $fontsetCSS.RelPermalink }}">
+  {{ end }}
   {{ with resources.Get "css/fonts.css" }}
     {{ if eq .ResourceType "text" }}
       {{ $fontCSS := . | minify | fingerprint }}

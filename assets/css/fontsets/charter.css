@@ -1,0 +1,19 @@
+:root {
+  --font-body: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-heading: Charter, "Bitstream Charter", "Sitka Text", Georgia, serif;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+.brand,
+.home-section-title,
+.page-header h1,
+.section h2,
+.content h2,
+.content h3,
+.publication h2 {
+  font-family: var(--font-heading) !important;
+  font-weight: 600;
+}
