@@ -7,7 +7,9 @@
   <meta name="description" content="{{ site.Params.description }}">
   {{ $mainCSS := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}">
-  {{ with resources.Get "css/palette.css" }}
+  {{ $paletteName := site.Params.palette | default "vermeer" }}
+  {{ $palettePath := printf "css/palettes/%s.css" $paletteName }}
+  {{ with resources.Get $palettePath }}
     {{ $paletteCSS := . | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $paletteCSS.RelPermalink }}">
   {{ end }}
