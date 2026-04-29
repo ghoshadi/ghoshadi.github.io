@@ -7,7 +7,7 @@ body_class: "teaching-page"
 
 ### As instructor
 
-- **[Stats 302: Qualifying Exam Workshop (Theoretical Statistics)](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+302&collapse=)** <span class="teaching-term">(Summer 2025, Summer 2026)</span>
+- **[Stats 302: Qualifying Exam Workshop (Theoretical Statistics)](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+302&collapse=)** <span class="teaching-term">(Summer 2026, Summer 2025)</span>
 
 - **[Stats 302: Qualifying Exam Workshop (Probability)](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+302&collapse=)** <span class="teaching-term">(Summer 2024)</span>
 
