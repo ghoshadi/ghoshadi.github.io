@@ -1,5 +1,6 @@
 ---
 title: "Teaching"
+body_class: "teaching-page"
 ---
 
 ## Stanford University
