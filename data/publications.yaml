@@ -11,7 +11,7 @@
   authors: "Aditya Ghosh and Dominik Rothenhäusler"
   year: "2025+"
   status: "Submitted"
-  summary: "When it is unclear which covariates to adjust for, we provide valid inference for a reweighted population when at least one of the candidate adjustment sets is valid."
+  summary: "Observational studies often require covariate adjustment to remove confounding, yet the correct adjustment set is rarely known with certainty. We show that valid inference for a reweighted target population remains achievable without committing to a single specification—provided at least one candidate adjustment set is valid."
   links:
     arxiv: "https://arxiv.org/pdf/2505.08729"
     slides: "/files/Specification_robust_talk.pdf"
