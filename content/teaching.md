@@ -43,4 +43,4 @@ title: "Teaching"
 
 ## Mentoring and outreach
 
-I have trained numerous high school students for mathematics olympiads and other mathematics competitions. Some older materials are available at [ghoshadi.wordpress.com](https://ghoshadi.wordpress.com/).
+Before starting my Ph.D., I used to mentor high school students for mathematics olympiads and other mathematics competitions. Resources are available at [ghoshadi.wordpress.com](https://ghoshadi.wordpress.com/).

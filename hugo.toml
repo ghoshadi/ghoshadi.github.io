@@ -11,7 +11,7 @@ disableKinds = ["taxonomy", "term"]
   [[menus.main]]
     name = "Home"
     pageRef = "/"
-    weight = 1
+    weight = 10
 
   [[menus.main]]
     name = "Research"
@@ -19,13 +19,13 @@ disableKinds = ["taxonomy", "term"]
     weight = 20
 
   [[menus.main]]
-    name = "PLRD"
-    url = "https://ghoshadi.github.io/plrd/"
+    name = "Teaching"
+    pageRef = "/teaching"
     weight = 30
 
   [[menus.main]]
-    name = "Teaching"
-    pageRef = "/teaching"
+    name = "PLRD"
+    url = "https://ghoshadi.github.io/plrd/"
     weight = 40
 
   [[menus.main]]
