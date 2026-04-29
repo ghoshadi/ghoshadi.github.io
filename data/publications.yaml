@@ -25,7 +25,7 @@
 
 - title: "Robustness and Efficiency of Rosenbaum's Rank-based Estimator in Randomized Trials: A Design-based Perspective"
   authors: "Aditya Ghosh, Nabarun Deb, Bikram Karmakar, and Bodhi Sen"
-  year: "2025+"
+  year: 2026
   status: "Accepted at Biometrika"
   summary: "We study efficiency and robustness of Rosenbaum's rank-based estimator under finite population inference in randomized trials, with and without covariate adjustment."
   links:

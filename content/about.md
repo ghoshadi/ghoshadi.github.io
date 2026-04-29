@@ -1,6 +1,5 @@
 ---
 title: "About"
-description: "Research, teaching, and background."
 ---
 
 I am a Ph.D. student in Statistics at Stanford University, advised by

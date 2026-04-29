@@ -1,6 +1,5 @@
 ---
-title: "Publications"
-description: "Papers and selected research."
+title: "Research"
 ---
 
 {{< publications >}}

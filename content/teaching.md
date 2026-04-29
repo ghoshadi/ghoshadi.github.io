@@ -1,6 +1,5 @@
 ---
 title: "Teaching"
-description: "Teaching, mentoring, and course support."
 ---
 
 ## Stanford University
