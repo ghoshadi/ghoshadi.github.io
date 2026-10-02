@@ -54,26 +54,14 @@
 <section class="section">
   <h2>Selected research</h2>
   <div class="cards">
-    <a class="card" href="https://arxiv.org/pdf/2512.15244" target="_blank" rel="noopener noreferrer">
-      <h3>Dynamic Thresholding Designs</h3>
-      <p>
-        Threshold-based interventions are common in clinical practice, but studying their long-term impact is challenging due to temporal dynamics and carryover effects. We show that a dynamic marginal policy effect at the treatment threshold admits a simple, reduced-form characterization, and develop a local linear regression method for estimation and inference.
-      </p>
-    </a>
-
-    <a class="card" href="https://arxiv.org/pdf/2505.08729" target="_blank" rel="noopener noreferrer">
-      <h3>Specification-robust Causal Inference</h3>
-      <p>
-        Covariate adjustment is essential for removing confounding in observational studies, yet researchers often face uncertainty over which covariates to adjust for. Building on debiased machine learning, we establish valid inference for a reweighted target population without committing to a single specification—requiring only that at least one candidate adjustment is valid.
-      </p>
-    </a>
-
-    <a class="card" href="https://arxiv.org/pdf/2503.09907" target="_blank" rel="noopener noreferrer">
-      <h3>PLRD: Partially Linear Regression Discontinuity Inference</h3>
-      <p>
-        Regression discontinuity designs are widely used in applied economics, yet the existing methods often face a trade-off between nominal coverage and interval width. Building on the bias-aware literature, PLRD exploits a partially linear structure and higher-order smoothness to produce intervals that are both valid and short.
-      </p>
-    </a>
+    {{ range where site.Data.publications "selected" true }}
+      <a class="card" href="{{ .links.arxiv }}" target="_blank" rel="noopener noreferrer">
+        <h3>{{ .homepage_title }}</h3>
+        <p>
+          {{ .summary }}
+        </p>
+      </a>
+    {{ end }}
   </div>
 </section>
 

@@ -1,4 +1,6 @@
 - title: "Non-parametric Causal Inference in Dynamic Thresholding Designs"
+  selected: true
+  homepage_title: "Dynamic Thresholding Designs"
   authors: "Aditya Ghosh and Stefan Wager"
   year: "2025+"
   status: "Submitted"
@@ -8,6 +10,8 @@
     slides: "/files/Dynamic_RD_talk.pdf"
 
 - title: "Which Covariates to Adjust for? Specification-robust Causal Inference in Observational Studies"
+  selected: true
+  homepage_title: "Specification-robust Causal Inference"
   authors: "Aditya Ghosh and Dominik Rothenhäusler"
   year: "2025+"
   status: "Major revision requested at the Annals of Statistics"
@@ -19,6 +23,8 @@
     package: "https://github.com/ghoshadi/specrobust"
 
 - title: "PLRD: Partially Linear Regression Discontinuity Inference"
+  selected: true
+  homepage_title: "PLRD: Partially Linear Regression Discontinuity Inference"
   authors: "Aditya Ghosh, Guido Imbens, and Stefan Wager"
   year: "2025+"
   status: "Submitted"
