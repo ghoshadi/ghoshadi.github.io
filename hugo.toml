@@ -8,6 +8,7 @@ disableKinds = ["taxonomy", "term"]
   palette = "vermeer"
   description = "Aditya Ghosh — Ph.D. candidate in Statistics at Stanford University."
   author = "Aditya Ghosh"
+  researchSummary = "My research focuses on designing robust methods for causal inference in complex settings that arise in modern applications, with the same rigor and transparency as in classical designs."
 
 [menus]
   [[menus.main]]
