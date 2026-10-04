@@ -3,7 +3,7 @@
   homepage_title: "Dynamic Thresholding Designs"
   authors: "Aditya Ghosh and Stefan Wager"
   year: "2025+"
-  status: "Submitted"
+  status: "Major revision at the Journal of the Royal Statistical Society Series B: Statistical Methodology"
   summary: "Threshold-based interventions are common in clinical practice, but studying their long-term impact is challenging due to temporal dynamics and carryover effects. We show that a dynamic marginal policy effect at the treatment threshold admits a simple, reduced-form characterization, and develop a local linear regression method for estimation and inference."
   links:
     arxiv: "https://arxiv.org/pdf/2512.15244"
@@ -14,7 +14,7 @@
   homepage_title: "Specification-robust Causal Inference"
   authors: "Aditya Ghosh and Dominik Rothenhäusler"
   year: "2025+"
-  status: "Major revision requested at the Annals of Statistics"
+  status: "Major revision at the Annals of Statistics"
   summary: "Covariate adjustment is essential for removing confounding in observational studies, yet researchers often face uncertainty over which covariates to adjust for. Building on debiased machine learning, we establish valid inference for a reweighted target population without committing to a single specification—requiring only that at least one candidate adjustment is valid."
   links:
     arxiv: "https://arxiv.org/pdf/2505.08729"

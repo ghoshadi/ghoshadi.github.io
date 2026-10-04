@@ -5,6 +5,8 @@ body_class: "teaching-page"
 
 ## Stanford University
 
+Teaching has always been an incredibly rewarding part of my academic life. I particularly enjoy helping students develop intuition for the concepts first, which often makes them more confident in applying the techniques.
+
 ### As instructor
 
 - **[Stats 302: Qualifying Exam Workshop (Theoretical Statistics)](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+302&collapse=)** <span class="teaching-term">(Summer 2026, Summer 2025)</span>
@@ -30,6 +32,8 @@ body_class: "teaching-page"
 - **[Stats 141: Introduction to Statistics for Biology](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+141&collapse=)** <span class="teaching-term">(Spring 2026)</span>
 
 - **[Stats 60: Introduction to Statistical Methods: Precalculus](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+60&collapse=)** <span class="teaching-term">(Spring 2025)</span>
+
+I am also grateful to receive the [Departmental Teaching Assistant Award](https://statistics.stanford.edu/news/2026-statistics-teaching-assistant-awards) from the Stanford Statistics Department in 2026.
 
 ## Mentoring and outreach
 
