@@ -4,7 +4,7 @@ title = "Aditya Ghosh"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  fontset = "garamond-dm"
+  fontset = "garamond-inter"
   palette = "moonlight"
   description = "Aditya Ghosh — Ph.D. candidate in Statistics at Stanford University."
   author = "Aditya Ghosh"
