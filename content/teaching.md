@@ -5,7 +5,7 @@ body_class: "teaching-page"
 
 ## Stanford University
 
-Teaching has always been an incredibly rewarding part of my academic life. I particularly enjoy helping students develop intuition for the concepts first, which often makes them more confident in applying the techniques.
+Teaching has always been an incredibly rewarding part of my academic life. During my Ph.D. at Stanford, I have been a teaching assistant in a broad range of data science, probability and statistics courses. I also had the pleasure of teaching several cohorts of first-year Statistics Ph.D. students in their qualifying exams workshop. I was honored to receive the [Departmental Teaching Assistant Award](https://statistics.stanford.edu/news/2026-statistics-teaching-assistant-awards) in 2026.
 
 ### As instructor
 
@@ -32,8 +32,6 @@ Teaching has always been an incredibly rewarding part of my academic life. I par
 - **[Stats 141: Introduction to Statistics for Biology](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+141&collapse=)** <span class="teaching-term">(Spring 2026)</span>
 
 - **[Stats 60: Introduction to Statistical Methods: Precalculus](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+60&collapse=)** <span class="teaching-term">(Spring 2025)</span>
-
-I am also grateful to receive the [Departmental Teaching Assistant Award](https://statistics.stanford.edu/news/2026-statistics-teaching-assistant-awards) from the Stanford Statistics Department in 2026.
 
 ## Mentoring and outreach
 
