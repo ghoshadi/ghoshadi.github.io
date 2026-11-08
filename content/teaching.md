@@ -33,6 +33,4 @@ Teaching has always been an incredibly rewarding part of my academic life. Durin
 
 - **[Stats 60: Introduction to Statistical Methods: Precalculus](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+60&collapse=)** <span class="teaching-term">(Spring 2025)</span>
 
-## Mentoring and outreach
-
-Before starting my Ph.D., I used to mentor high school students for mathematics olympiads and other mathematics competitions. Resources are available at [ghoshadi.wordpress.com](https://ghoshadi.wordpress.com/).
+Before starting my Ph.D., I used to mentor high school students for math competitions; resources are available at [ghoshadi.wordpress.com](https://ghoshadi.wordpress.com/).
