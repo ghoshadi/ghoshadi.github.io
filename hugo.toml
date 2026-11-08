@@ -8,7 +8,7 @@ disableKinds = ["taxonomy", "term"]
   palette = "vermeer"
   description = "Aditya Ghosh — Ph.D. candidate in Statistics at Stanford University."
   author = "Aditya Ghosh"
-  researchSummary = "My research focuses on designing robust methods for causal inference in complex settings that arise in modern applications, with the same rigor and transparency as in classical designs."
+  researchSummary = "My research focuses on developing robust methods for causal inference in modern settings, motivated by applications in economics, medicine, public policy, and operations research. I am particularly interested in problems involving complex dynamics, units interacting with shared resources, and distribution shifts across locations and time periods. I also work on designing methods that achieve both precision and robustness to specification when multiple analytic choices are defensible."
 
 [menus]
   [[menus.main]]
