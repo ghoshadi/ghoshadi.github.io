@@ -15,7 +15,7 @@
   authors: "Aditya Ghosh and Dominik Rothenhäusler"
   year: "2025+"
   status: "Major revision at the Annals of Statistics"
-  summary: "Covariate adjustment is essential for removing confounding in observational studies, yet researchers often face uncertainty over which covariates to adjust for. Building on debiased machine learning, we establish valid inference for a reweighted target population without committing to a single specification—requiring only that at least one candidate adjustment is valid."
+  summary: "Covariate adjustment is essential for removing confounding in observational studies, yet researchers often face uncertainty over which covariates to adjust for. Using debiased machine learning, we provide precise inference for a reweighted target population, with validity when at least one candidate adjustment is valid."
   links:
     arxiv: "https://arxiv.org/pdf/2505.08729"
     slides: "/files/Specification_robust_talk.pdf"
