@@ -6,7 +6,7 @@
       <p class="pub-authors">{{ $pub.authors }}</p>
 
       <p class="pub-meta">
-        {{ with $pub.status }}{{ . }}{{ end }}
+        {{ with $pub.status }}{{ . | markdownify }}{{ end }}
         {{ with $pub.venue }}{{ if $pub.status }} · {{ end }}{{ . }}{{ end }}
         {{ with $pub.year }} · {{ . }}{{ end }}
       </p>
