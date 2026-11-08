@@ -25,6 +25,8 @@ Teaching has always been an incredibly rewarding part of my academic life. Durin
 
 - **[Stats 209: Introduction to Causal Inference](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+209&collapse=)** <span class="teaching-term">(Fall 2025)</span>
 
+- **[Stats 203: Regression Models and Analysis of Variance](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+203&collapse=)** <span class="teaching-term">(Fall 2026)</span>
+
 - **[Stats 202: Data Mining and Analysis](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+202&collapse=)** <span class="teaching-term">(Summer 2023, Autumn 2022)</span>
 
 - **[Stats 200: Introduction to Theoretical Statistics](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+200&collapse=)** <span class="teaching-term">(Winter 2026, Autumn 2024)</span>
