@@ -165,7 +165,7 @@ h3 {
 .lead {
   margin: 0;
   max-width: 760px;
-  color: var(--muted);
+  color: var(--text);
   font-size: 1.04rem;
 }
 
@@ -250,7 +250,7 @@ h3 {
 
 .card p {
   margin: 0;
-  color: var(--muted);
+  color: var(--text);
   font-size: 0.97rem;
 }
 
@@ -548,7 +548,7 @@ h3 {
 
 .pub-summary {
   margin-top: 0.75rem;
-  color: var(--muted);
+  color: var(--text);
 }
 
 /* Final overrides: translucent publication buttons, header theme toggle, uniform hero buttons */
@@ -1077,13 +1077,10 @@ h3 {
   }
 }
 
-/* Final text-color harmonization: match homepage About-me text color */
-.section p,
-.content > p,
+/* Reserve muted text for publication metadata and secondary labels. */
 .pub-authors,
 .pub-meta,
-.teaching-term,
-.content li {
+.teaching-term {
   color: var(--muted) !important;
 }
 
