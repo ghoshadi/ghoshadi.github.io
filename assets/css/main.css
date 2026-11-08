@@ -1,30 +1,10 @@
 :root {
   color-scheme: light dark;
-
-  --bg: #f7f5ef;
-  --surface: #ffffff;
-  --surface-2: #fcfbf8;
-  --text: #1b2430;
-  --muted: #5f6975;
-  --link: #1b4f8a;
-  --accent: #3f6db5;
-  --border: #dfd9cd;
-  --shadow: 0 12px 32px rgba(20, 27, 34, 0.08);
   --max-width: 1080px;
 }
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-
-  --bg: #0f1217;
-  --surface: #161b22;
-  --surface-2: #11161c;
-  --text: #e7edf4;
-  --muted: #a4b0bd;
-  --link: #8ab4ff;
-  --accent: #9bbcff;
-  --border: #2a3440;
-  --shadow: 0 14px 34px rgba(0, 0, 0, 0.32);
 }
 
 * {
@@ -39,8 +19,8 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 16.5px;
+  font-family: var(--font-body);
+  font-size: var(--font-size-body, 16.5px);
   line-height: 1.6;
   transition: background 180ms ease, color 180ms ease;
 }
@@ -167,13 +147,13 @@ h1, h2, h3 {
 
 h1 {
   margin: 0 0 0.75rem;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
   font-size: clamp(2.2rem, 4vw, 3.4rem);
 }
 
 h2 {
   margin: 0 0 0.85rem;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
   font-size: 1.65rem;
 }
 
@@ -464,7 +444,7 @@ h3 {
 /* Final overrides: compact homepage heading and fixed dark-mode button */
 .home-section-title {
   margin: 0 0 0.75rem;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
   font-size: clamp(1.65rem, 3vw, 2.15rem);
   line-height: 1.15;
   letter-spacing: -0.025em;
@@ -669,7 +649,7 @@ h3 {
 .section h2,
 .content h2,
 .content h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
 }
 
 /* Top-left site title */
@@ -737,7 +717,7 @@ h3 {
 /* Research page paper titles:
    smaller than page headings, larger than author/status text. */
 .publication h2 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
   font-size: clamp(1.12rem, 1.75vw, 1.34rem) !important;
   line-height: 1.25;
   letter-spacing: -0.018em;
@@ -784,7 +764,7 @@ h3 {
 /* Research page paper titles:
    smaller than page headings, larger than author/status text. */
 .publication h2 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
   font-size: clamp(1.12rem, 1.75vw, 1.34rem) !important;
   line-height: 1.25;
   letter-spacing: -0.018em;
@@ -801,7 +781,7 @@ h3 {
 
 /* Make the top-left name comparable to the homepage/page title size */
 .brand {
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: var(--font-heading) !important;
   font-size: clamp(1.45rem, 2.6vw, 1.9rem) !important;
   line-height: 1.18;
   letter-spacing: -0.025em;
@@ -856,7 +836,7 @@ h3 {
 }
 
 .content h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
   font-size: clamp(1.08rem, 1.5vw, 1.22rem) !important;
   line-height: 1.25;
   letter-spacing: -0.015em;
@@ -866,7 +846,7 @@ h3 {
 
 /* Make the top-left name comparable to the homepage/page title size */
 .brand {
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: var(--font-heading) !important;
   font-size: clamp(1.45rem, 2.6vw, 1.9rem) !important;
   line-height: 1.18;
   letter-spacing: -0.025em;
@@ -921,7 +901,7 @@ h3 {
 }
 
 .content h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
   font-size: clamp(1.08rem, 1.5vw, 1.22rem) !important;
   line-height: 1.25;
   letter-spacing: -0.015em;
@@ -931,7 +911,7 @@ h3 {
 
 /* Make the top-left name comparable to the homepage/page title size */
 .brand {
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: var(--font-heading) !important;
   font-size: clamp(1.25rem, 2.6vw, 1.9rem) !important;
   line-height: 1.18;
   letter-spacing: -0.025em;
@@ -986,7 +966,7 @@ h3 {
 }
 
 .content h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
   font-size: clamp(1.08rem, 1.5vw, 1.22rem) !important;
   line-height: 1.25;
   letter-spacing: -0.015em;
@@ -996,7 +976,7 @@ h3 {
 
 /* Make the top-left name comparable to the homepage/page title size */
 .brand {
-  font-family: Georgia, "Times New Roman", serif !important;
+  font-family: var(--font-heading) !important;
   font-size: clamp(1.25rem, 2.6vw, 1.5rem) !important;
   line-height: 1.18;
   letter-spacing: -0.025em;
@@ -1051,7 +1031,7 @@ h3 {
 }
 
 .content h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
   font-size: clamp(1.08rem, 1.5vw, 1.22rem) !important;
   line-height: 1.25;
   letter-spacing: -0.015em;
