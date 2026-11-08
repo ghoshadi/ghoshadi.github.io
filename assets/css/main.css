@@ -1497,7 +1497,8 @@ a.pub-button:focus-visible::after,
 }
 
 /* Match homepage section headings to the site name. */
-.brand {
+.brand,
+.publication h2 {
   font-size: var(--font-size-home-title) !important;
 }
 
