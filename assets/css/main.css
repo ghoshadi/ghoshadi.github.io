@@ -1536,3 +1536,8 @@ a.pub-button:focus-visible::after,
   height: var(--hero-icon-size) !important;
   padding: 0 !important;
 }
+
+/* Teaching page section headings match the site title */
+.teaching-page .content h2 {
+  font-size: var(--font-size-home-title) !important;
+}

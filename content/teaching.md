@@ -3,17 +3,15 @@ title: "Teaching"
 body_class: "teaching-page"
 ---
 
-## Stanford University
-
 Teaching has always been an incredibly rewarding part of my academic life. During my Ph.D. at Stanford, I have been a teaching assistant in a broad range of data science, probability and statistics courses. I also had the pleasure of teaching several cohorts of first-year Statistics Ph.D. students in their qualifying exams workshop. I was honored to receive the [Departmental Teaching Assistant Award](https://statistics.stanford.edu/news/2026-statistics-teaching-assistant-awards) in 2026.
 
-### As instructor
+## As instructor
 
 - **[Stats 302: Qualifying Exam Workshop (Theoretical Statistics)](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+302&collapse=)** <span class="teaching-term">(Summer 2026, Summer 2025)</span>
 
 - **[Stats 302: Qualifying Exam Workshop (Probability)](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+302&collapse=)** <span class="teaching-term">(Summer 2024)</span>
 
-### As teaching assistant
+## As teaching assistant
 
 - **[Stats 361: Causal Inference](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=stats+361&collapse=)** <span class="teaching-term">(Winter 2025)</span>
 
