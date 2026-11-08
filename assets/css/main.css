@@ -1227,37 +1227,20 @@ html[data-theme="dark"] .hero-links .button.primary:hover {
   border-color: var(--accent) !important;
 }
 
-/* Animated underline for ordinary text links, matching header nav behavior */
-.content a,
-.lead a,
-.section p a,
-.page a:not(.button):not(.card):not(.pub-button),
-.publication a:not(.pub-button) {
-  position: relative;
+/* Animated multiline underlines for ordinary content links */
+.site-main a:not(.button):not(.card):not(.pub-button) {
   text-decoration: none;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  transition: background-size 160ms ease;
 }
 
-.content a::after,
-.lead a::after,
-.section p a::after,
-.page a:not(.button):not(.card):not(.pub-button)::after,
-.publication a:not(.pub-button)::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -0.12rem;
-  width: 0;
-  height: 2px;
-  background: var(--accent);
-  transition: width 160ms ease;
-}
-
-.content a:hover::after,
-.lead a:hover::after,
-.section p a:hover::after,
-.page a:not(.button):not(.card):not(.pub-button):hover::after,
-.publication a:not(.pub-button):hover::after {
-  width: 100%;
+.site-main a:not(.button):not(.card):not(.pub-button):is(:hover, :focus-visible) {
+  background-size: 100% 2px;
 }
 
 /* Keep button/card links from getting text underlines */
